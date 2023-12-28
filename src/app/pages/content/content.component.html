@@ -1,15 +1,21 @@
-<div class="container__content">
-  <div class="content__cover">
-    <img src="{{ photoCover }}" alt="" srcset="">
-  </div>
-  <div class="content__title">
-    <h1>{{ contentTitle }}</h1>
-    <hr />
-  </div>
-  <div class="content__description">
-    <a [routerLink]="['']"> << VOLTAR </a>
-    <p>
-      {{ contentDescription }}
-    </p>
+
+
+<div class="w-full flex flex-row justify-content-center">
+  <div class="w-10 flex justify-content-between">
+    <div class="content__cover w-6">
+      <img src="{{ photoCover }}" alt="" srcset="">
+    </div>
+
+    <div class="w-6">
+      <div class="content__title">
+        <h1>{{ contentTitle }}</h1>
+      </div>
+      <div class="content__description">
+        <a [routerLink]="['']">
+          << VOLTAR </a> <p>
+            {{ contentDescription }}
+            </p>
+      </div>
+    </div>
   </div>
 </div>

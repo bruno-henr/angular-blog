@@ -1,0 +1,7 @@
+.container__articles {
+  margin-top: 30px;
+  background-color: purple !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

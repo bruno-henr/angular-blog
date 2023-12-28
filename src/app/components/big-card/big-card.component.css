@@ -3,7 +3,7 @@
   margin-left: 20px;
   margin-right: 20px;
 
-  width: 400px;
+  width: 85% !important;
   height: 500px;
 
   display: flex;
@@ -27,5 +27,6 @@
 
 .big-card__photo > img{
   width: 100%;
-  min-width: 400px;
+  min-width: 480px;
+  height: 100%;
 }
