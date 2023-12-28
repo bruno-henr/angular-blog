@@ -1,9 +1,23 @@
-<div class="container__menu-bar">
-  <ul>
-    <li><a href="https://linkedin.com/in/felipe-aguiar-exe">Linkedin</a></li>
-    <li><span>•</span></li>
-    <li><a href="https://github.com/felipeAguiarCode">Github</a></li>
-    <li><span>•</span></li>
-    <li><a href="https://www.youtube.com/channel/UCCcDZkI7AITYFCgDEFV9OoQ">Youtube</a></li>
-  </ul>
+<div class="flex flex-row flex-wrap p-5 align-items">
+  <div class="flex-1 flex gap-4">
+    <div class="logo">
+      <span>B</span>
+    </div>
+    <div class="container-links">
+      <a [routerLink]="['']">
+        <span>Home</span>
+      </a>
+    </div>
+
+  </div>
+  <div class="flex-1 flex justify-content-end">
+    <div class="flex flex-row gap-4">
+      <a href="https://github.com/bruno-henr">
+        <img src="/assets/github-mark.png" alt="">
+      </a>
+      <a href="https://www.linkedin.com/in/brunohenr/">
+        <img src="/assets/LI-In-Bug.png" alt="">
+      </a>
+    </div>
+  </div>
 </div>
